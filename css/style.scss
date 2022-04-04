@@ -245,6 +245,7 @@ body {
     }
     .reward_wrap{
         padding-top: 95px;
+        padding-bottom: 50px;
         .reward_cont{
             .inner_wrap{
                 display: flex;
@@ -301,6 +302,32 @@ body {
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+.wide_img_wrap{
+    background: url('../img/ft-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    .body_bg{
+        z-index: -1;
+        height: 100%;
+    }
+}
+.footer{
+    .footer_nav{
+        ul{
+            padding: 0;
+            li{
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    font-size: 13px;
                 }
             }
         }
