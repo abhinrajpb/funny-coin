@@ -96,3 +96,17 @@ jQuery(function ($) {
 	$this.countTo(options);
   }
 });
+
+/* ========================================== 
+scrollTop() >= 300
+Should be equal the the height of the header
+========================================== */
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('.header').addClass('fixed-header');
+    }
+    else {
+        $('.header').removeClass('fixed-header');
+    }
+});
